@@ -6,3 +6,4 @@ choco install vlc -y ## Install Vlc Media Player
 Invoke-WebRequest -Uri "https://laptop-updates.brave.com/download/CHR253" -OutFile $env:USERPROFILE\Downloads\brave.exe ~/Downloads/brave.exe ## Installs the Brave Browser
 choco install vim -y ## Install Vim
 choco install gimp -y ## Install Gimp
+choco install code -y ## Install VS Code
