@@ -7,3 +7,4 @@ Invoke-WebRequest -Uri "https://laptop-updates.brave.com/download/CHR253" -OutFi
 choco install vim -y ## Install Vim
 choco install gimp -y ## Install Gimp
 choco install code -y ## Install VS Code
+choco install microsoft-windows-terminal ## Install Windows Terminal
