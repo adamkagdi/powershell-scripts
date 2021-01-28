@@ -2,9 +2,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install chocolatey -y ## Updates Chocolatey
 choco install chocolatey-core.extension -y ## Downloads few extensions for Chocolatey
 choco install notepadplusplus -y ## Installs NotePad++
-choco install vlc -y ## Install Vlc Media Player
+choco install vlc -y ## Installs Vlc Media Player
 Invoke-WebRequest -Uri "https://laptop-updates.brave.com/download/CHR253" -OutFile $env:USERPROFILE\Downloads\brave.exe ~/Downloads/brave.exe ## Installs the Brave Browser
-choco install vim -y ## Install Vim
-choco install gimp -y ## Install Gimp
-choco install code -y ## Install VS Code
-choco install microsoft-windows-terminal ## Install Windows Terminal
+choco install vim -y ## Installs Vim
+choco install gimp -y ## Installs Gimp
+choco install code -y ## Installs VS Code
+choco install microsoft-windows-terminal ## Installs Windows Terminal
