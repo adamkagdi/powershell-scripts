@@ -8,3 +8,4 @@ choco install vim -y ## Installs Vim
 choco install gimp -y ## Installs Gimp
 choco install code -y ## Installs VS Code
 choco install microsoft-windows-terminal ## Installs Windows Terminal
+choco install brave -y
