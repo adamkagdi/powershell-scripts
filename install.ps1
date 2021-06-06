@@ -1,7 +1,7 @@
-winget install notepad++ ## Installs NotePad++
-winget install vlc ## Installs Vlc Media Player
-winget install vim ## Installs Vim
+winget install Notepad++.Notepad++ ## Installs NotePad++
+winget install VideoLAN.VLC ## Installs Vlc Media Player
+winget install vim.vim ## Installs Vim
 winget install gimp ## Installs Gimp
-winget install visualstudiocode ## Installs VS Code
-winget install windowsterminal ## Installs Windows Terminal
-winget install brave ## Installs Brave Browser
+winget install Microsoft.VisualStudioCode ## Installs VS Code
+winget install Microsoft.WindowsTerminalPreview ## Installs Windows Terminal
+winget install BraveSoftware.BraveBrowser-Nightly ## Installs Brave Browser
