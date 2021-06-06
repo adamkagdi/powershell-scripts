@@ -1,10 +1,7 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) ##This install chocolatey
-choco install chocolatey -y ## Updates Chocolatey
-choco install chocolatey-core.extension -y ## Downloads few extensions for Chocolatey
-choco install notepadplusplus -y ## Installs NotePad++
-choco install vlc -y ## Installs Vlc Media Player
-choco install vim -y ## Installs Vim
-choco install gimp -y ## Installs Gimp
-choco install code -y ## Installs VS Code
-choco install microsoft-windows-terminal ## Installs Windows Terminal
-choco install brave -y ## Installs Brave Browser
+winget install notepad++ ## Installs NotePad++
+winget install vlc ## Installs Vlc Media Player
+winget install vim ## Installs Vim
+winget install gimp ## Installs Gimp
+winget install visualstudiocode ## Installs VS Code
+winget install windowsterminal ## Installs Windows Terminal
+winget install brave ## Installs Brave Browser
